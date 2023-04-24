@@ -57,7 +57,8 @@ export default function Home() {
               Developer and designer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nulla tenetur possimus aliquid eaque, veniam fugiat .
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Architecto nulla tenetur possimus aliquid eaque, veniam fugiat .
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://twitter.com/">
@@ -79,8 +80,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
@@ -154,16 +154,22 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+            <div className="basis-1/3 flex-1  relative">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover "
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web1}
               />
+              <button class=" flex  items-center absolute bottom-0 right-0 bg-black text-white px-4 py-2">
+                Github
+              </button>
+              <button class=" flex  items-center absolute bottom-0 right-50 bg-black text-white px-4 py-2">
+                view
+              </button>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative" >
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -171,8 +177,14 @@ export default function Home() {
                 layout="responsive"
                 src={web2}
               />
+               <button class=" flex  items-center absolute bottom-0 right-0 bg-black text-white px-4 py-2">
+                Github
+              </button>
+              <button class=" flex  items-center absolute bottom-0 right-50 bg-black text-white px-4 py-2">
+                view
+              </button>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -180,8 +192,14 @@ export default function Home() {
                 layout="responsive"
                 src={web3}
               />
+               <button className="flex  items-center absolute bottom-0 right-0 bg-black text-white px-4 py-2">
+                Github
+              </button>
+              <button className=" flex  items-center absolute bottom-0 right-50 bg-black text-white px-4 py-2">
+                view
+              </button>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -189,8 +207,14 @@ export default function Home() {
                 layout="responsive"
                 src={web4}
               />
+               <button className="flex  items-center absolute bottom-0 right-0 bg-black text-white px-4 py-2">
+                Github
+              </button>
+              <button className=" flex  items-center absolute bottom-0 right-50 bg-black text-white px-4 py-2">
+                view
+              </button>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -198,8 +222,14 @@ export default function Home() {
                 layout="responsive"
                 src={web5}
               />
+              <button className="flex  items-center absolute bottom-0 right-0 bg-black text-white px-4 py-2">
+                Github
+              </button>
+              <button className=" flex  items-center absolute bottom-0 right-50 bg-black text-white px-4 py-2">
+                view
+              </button>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -207,6 +237,12 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
+               <button className="flex  items-center absolute bottom-0 right-0 bg-black text-white px-4 py-2">
+                Github
+              </button>
+              <button className=" flex  items-center absolute bottom-0 right-50 bg-black text-white px-4 py-2">
+                view
+              </button>
             </div>
           </div>
         </section>
